@@ -95,23 +95,20 @@ rss:
   # - 正整数：覆盖全局设置，只推送此天数内的文章
   # - 0：禁用此频道的新鲜度过滤，推送所有文章
   feeds:
-        - id: "wallstreetcn-hot"
+    - id: "wallstreetcn-hot"
       name: "华尔街见闻"
       expected_domain: "wallstreetcn.com"
       enabled: true 
-      max_age_days: 1 
       
     - id: "thepaper"
       name: "澎湃新闻"
       expected_domain: "thepaper.cn"
       enabled: true 
-      max_age_days: 1 
       
     - id: "cls-hot"
       name: "财联社热门"
       expected_domain: "cls.cn"
       enabled: true 
-      max_age_days: 1 
       
     - id: "geekpark"
       name: "极客公园"
@@ -122,20 +119,17 @@ rss:
     - id: "36kr"
       name: "36氪"
       url: "http://www.36kr.com/feed"
-      enabled: true 
-      max_age_days: 1               
+      enabled: true            
      
     - id: "leiphone"
       name: "雷锋网"
       url: "http://www.leiphone.com/feed/"
       enabled: true                 
-      max_age_days: 1 
 
     - id: "TechCrunch"
       name: "TechCrunch"
       url: "https://techcrunch.com/feed/"
       enabled: true                 
-      max_age_days: 1 
 
     # 自定义源示例
     # - id: "custom-feed"
