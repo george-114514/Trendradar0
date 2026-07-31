@@ -62,7 +62,7 @@ schedule:
 #     只要 api_url 不是你自己部署的实例，都推荐配置 expected_domain
 # ===============================================================
 platforms:
-  enabled: false 
+  enabled: true 
   api_url: ""
   sources:
     - id: thepape
